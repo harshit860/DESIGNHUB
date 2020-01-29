@@ -1,0 +1,218 @@
+
+.stepper > .rowStepper
+ {
+    display: flex;
+    
+  }
+  .stepper1 > .rowStepper1 {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .stepper > .rowStepper > .text {
+    margin: 10px;
+    text-align: center;
+    justify-content: center;
+  }
+  .hicon{
+      height:30px
+  }
+  .stepper > .rowStepper > .side > .li {
+    postion:absolute;
+    margin:10px;
+    margin-left:50px;
+    left:-25px;
+    background:purple;
+    border-radius:25px;
+    width:20px;
+    height:20px;
+    box-shadow:-2px 5px 10px purple
+  
+  }
+  
+  .stepper > .rowStepper > .side > .line {
+    border-left: 5px solid purple;
+    postion:absolute;
+    margin-left:56.5px;
+    height:50px;
+  }
+/* /////////////////////// */
+  .stepper1 > .rowStepper1 > .text1 {
+    margin: 10px;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .stepper1 > .rowStepper1 > .side1 > .li1 {
+    postion:absolute;
+    margin:10px;
+    margin-left:50px;
+    left:-25px;
+    background:purple;
+    border-radius:25px;
+    width:20px;
+    height:20px;
+    box-shadow:-2px 5px 10px purple
+  
+  }
+  
+  .stepper1 > .rowStepper1 > .side1 > .line1 {
+    border-left: 5px solid purple;
+    postion:absolute;
+    margin-left:56.5px;
+    height:50px;
+  }
+#one{
+    color:red
+}
+.nav{
+    position: sticky;
+    top: -40px;
+    z-index: 1;
+    box-shadow:0px 5px 10px grey;
+}
+.spn11{
+    margin-top: 100px;
+}
+.left{
+    float: right;
+    border: 2px solid black;
+}
+.imgsize
+{
+    height:160px;
+    width:250px;
+    border-radius: 2%;
+}
+@media screen and (max-width: 1200px) {
+   .hide1{
+    display: none;
+   }
+   .stepper > .rowStepper {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .stepper1 > .rowStepper1 {
+    display: flex;
+    flex-direction: row ;
+  }
+  }
+
+@media screen and (max-width: 800px) {
+    .hide2{
+     display: none;
+    }
+   }
+
+.trsp
+{
+    opacity: 0.7;
+    font-size: 25px;
+
+}
+.roundme{
+    border-radius: 5%;
+    border:1.5px solid #C0C0C0
+}
+.roundme:hover{
+    border:1.5px solid purple
+}
+.setheight{
+    height:250px
+}
+.trsp:hover
+{
+    opacity: 1;
+    background-color: #6A0DAD;
+}
+.investor1{
+    margin: 20px;
+    height:40px;
+}
+.marginblock{
+    margin-top: 80px;
+}
+
+.centerme{
+    justify-content: center;
+}
+
+.headbg{
+    /* background: linear-gradient(to right,#667eea , #764ba2); */
+    /* background: linear-gradient(to right,#434343 , #000000); */
+    background-image: url("http://www.baltana.com/files/wallpapers-17/Dark-Purple-Best-Wallpaper-43732.jpg");
+}
+.headbg2{
+    background: linear-gradient(to right,#667eea , #764ba2);
+    /* background-image: url("http://www.baltana.com/files/wallpapers-17/Dark-Purple-Best-Wallpaper-43732.jpg"); */
+}
+.grad{
+    color:grey;
+    transition: width 1s, height 0.50s ,hover 1s;
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+}
+
+.grad:hover{
+    color:white;
+    border-radius: 10%;
+    height: 250px;
+    background:linear-gradient(to top left,pink,purple,blue)
+}
+.just{
+    justify-content: center;
+
+    
+}
+.flex{
+    display: flex;  
+    flex-direction: row;
+    width:auto;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content:center;
+    height:auto;
+    
+}
+.flex form{
+    margin:60px;
+    
+}
+.flex div{
+    margin:30px;
+    
+}
+.p1{
+    font-size: 30px;
+}
+.bgp{
+    background:linear-gradient(to top right,#6A0DAD,skyblue) 
+}
+.bgp2{
+    height:40px;
+    background:linear-gradient(to top right,#6A0DAD,purple  ) 
+}
+.prpl{
+    background-color: #6A0DAD;
+}
+.prpl2{
+    border:2px solid #6A0DAD
+}
+@media screen and (max-width: 700px) {
+    .flex div{
+     margin:50px;
+     width:50%;
+    }
+    .headbg2{
+        background-image: url("https://www.kingdominvestors.com.au/wp-content/uploads/2019/05/dark1-300x169.jpg");
+        color:goldenrod;
+    }
+   }
+@media screen and (max-width: 550px) {
+    .flex div{
+     margin:50px;
+     width:80%;
+    }
+}
+
+ 
